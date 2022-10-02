@@ -5,6 +5,7 @@ Personal catppuccin mocchiato dotfiles for future Arch Linux installations.
 [GTK Theme](https://github.com/catppuccin/gtk)
 [Icons Theme](https://github.com/catppuccin/papirus-folders)
 [Kvantum Theme](https://github.com/catppuccin/Kvantum)
+[Firefox Waterfall Theme](https://github.com/crambaud/waterfall)
 
 Dependencies
 + i3-gaps
