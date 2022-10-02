@@ -1,11 +1,11 @@
 # i3-gaps-catppuccin-dotfiles
 Personal catppuccin mocchiato dotfiles for future Arch Linux installations.
 
-[Catppuccin Theme](https://github.com/catppuccin/catppuccin)
-[GTK Theme](https://github.com/catppuccin/gtk)
-[Icons Theme](https://github.com/catppuccin/papirus-folders)
-[Kvantum Theme](https://github.com/catppuccin/Kvantum)
-[Firefox Waterfall Theme](https://github.com/crambaud/waterfall)
+[Catppuccin Theme](https://github.com/catppuccin/catppuccin) <br>
+[GTK Theme](https://github.com/catppuccin/gtk) <br>
+[Icons Theme](https://github.com/catppuccin/papirus-folders) <br>
+[Kvantum Theme](https://github.com/catppuccin/Kvantum) <br>
+[Firefox Waterfall Theme](https://github.com/crambaud/waterfall) <br>
 
 Dependencies
 + i3-gaps
