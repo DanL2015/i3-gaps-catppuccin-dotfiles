@@ -1,5 +1,5 @@
 # i3-gaps-catppuccin-dotfiles
-## Personal catppuccin mocchiato dotfiles for future Arch Linux installations.
+## Personal catppuccin mocchiato dotfiles for my future Arch Linux installations.
 # Credit
 [Catppuccin Theme](https://github.com/catppuccin/catppuccin) <br>
 [GTK Theme](https://github.com/catppuccin/gtk) <br>
