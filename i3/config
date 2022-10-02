@@ -246,18 +246,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Windows stuff
-#border_radius 6
 gaps inner 8
 for_window [class="^.*"] border pixel 0
-#for_window [class="zoom"] border pixel 0
-#for_window [class="firefox"] border pixel 0
-
-#client.focused          #8FBCBB #8FBCBB #ffffff #8FBCBB #8FBCBB
-#client.focused_inactive #2E3440 #2E3440 #ffffff #2E3440 #2E3440
-#client.unfocused        #2E3440 #2E3440 #ffffff #2E3440 #2E3440
-#client.urgent           #D08770 #D08770 #ffffff #D08770 #D08770
-#client.placeholder      #2E3440 #2E3440 #ffffff #2E3440 #2E3440
-#client.background       #2E3440
 
 # Prevent mouse hover focus
 focus_follows_mouse no
