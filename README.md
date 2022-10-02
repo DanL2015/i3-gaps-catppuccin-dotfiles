@@ -38,8 +38,14 @@ yay -Syu picom-pijulius-git betterlockscreen
 These are my own personal dotfiles, most of them are taken from [Catppuccin](https://github.com/catppuccin/catppuccin).
 Use these at your own risk, they are messy and not very good :/
 
+# Scripts:
+Remember to chmod the scripts so they can be run.
+```
+sudo chmod +x /path/to/script
+```
+
 ## Rofi:
-There are three scripts
+Three scripts
 + large.sh - large application launcher
 + small.sh - small application launcher
 + rofi_power_menu.sh - power menu launcher
@@ -50,6 +56,11 @@ Run the following, switch to a new desktop, and replace the `Desktop Value` with
 ```
 sleep 3 && xdotool getwindowfocus
 ```
-Scripts
+Two Scripts
 + window.sh - gets focused window name
 + polybar.sh - starts polybar
+
+## i3:
+Two Scripts
++ volnotification - shows volume level in dunst (requires pamixer)
++ brightnotification - shows brightness level in dunst (requires xbacklight)
