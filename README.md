@@ -1,5 +1,8 @@
 # i3-gaps-catppuccin-dotfiles
 ## Personal catppuccin mocchiato dotfiles for my future Arch Linux installations.
+
+![Picture of Desktop](https://github.com/DanL2015/i3-gaps-catppuccin-dotfiles/blob/main/assets/Catppuccin.png)
+
 # Credit
 [Catppuccin Theme](https://github.com/catppuccin/catppuccin) <br>
 [GTK Theme](https://github.com/catppuccin/gtk) <br>
