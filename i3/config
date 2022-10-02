@@ -33,9 +33,6 @@ exec --no-startup-id xss-lock -- betterlockscreen -l dim
 # Starts picom
 exec_always --no-startup-id $HOME/.config/picom/picom.sh
 
-# Starts feh for background
-#exec_always --no-startup-id feh --bg-scale $HOME/Pictures/Daniel\'s\ Pictures/Backgrounds/Nordic.jpeg
-
 # Starts hsetroot for solid background
 exec_always --no-startup-id hsetroot -add "#ed8796" -add "#7dc4e4" -gradient 45
 
