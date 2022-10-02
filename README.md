@@ -16,13 +16,14 @@
 + zathura
 + dunst
 + neofetch
++ starship
 + picom-pijulius-git
 + xss-lock, betterlockscreen
 + hsetroot
 
 ## Arch Linux Package Installation
 ```
-sudo pacman -Syu i3-gaps polybar rofi kitty firefox zathura dunst neofetch hsetroot xss-lock
+sudo pacman -Syu i3-gaps polybar rofi kitty firefox zathura dunst neofetch starship xss-lock hsetroot
 ```
 ```
 yay -Syu picom-pijulius-git betterlockscreen
