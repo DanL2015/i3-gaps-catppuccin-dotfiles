@@ -45,7 +45,7 @@ There are three scripts
 + rofi_power_menu.sh - power menu launcher
 
 ## Polybar:
-Make sure to change the window.sh script (find the value for your desktop)
+Make sure to change the window.sh script (find the value for your desktop) <br>
 Run the following, switch to a new desktop, and replace the `Desktop Value` with your own values
 ```
 sleep 3 && xdotool getwindowfocus
