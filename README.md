@@ -7,15 +7,15 @@ Personal catppuccin mocchiato dotfiles for future Arch Linux installations.
 [Kvantum Theme](https://github.com/catppuccin/Kvantum)
 
 Dependencies
--i3-gaps
--polybar
--rofi
--kitty
--firefox
--zathura
--dunst
--neofetch
--picom-pijulius-git
++ i3-gaps
++ polybar
++ rofi
++ kitty
++ firefox
++ zathura
++ dunst
++ neofetch
++ picom-pijulius-git
 
 Arch Linux Package Installation
 ```
