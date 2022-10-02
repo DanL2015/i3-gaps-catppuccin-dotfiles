@@ -45,14 +45,10 @@ exec --no-startup-id xfsettingsd
 # Starts xfcepolkit
 exec --no-startup-id /usr/lib/xfce-polkit/xfce-polkit
 
-# Powertop autotune
-# exec_always --no-startup-id powertop --auto-tune
-
 # Dunst
 exec_always --no-startup-id dunst
 
-# NetworkManager is the most popular way to manage wireless networks on Linux,
-# and nm-applet is a desktop environment-independent system tray GUI for it.
+# NetworkManager
 exec --no-startup-id nm-applet
 
 # Keyring stuff
@@ -80,13 +76,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+f exec thunar
 
 # start web browser
-bindsym $mod+Shift+w exec brave
-
-# start spotify
-bindsym $mod+Shift+m exec spotify
-
-#start discord
-bindsym $mod+Shift+d exec discord
+bindsym $mod+Shift+w exec firefox
 
 # kill focused window
 bindsym $mod+Shift+c kill
@@ -98,13 +88,8 @@ bindsym $mod+Shift+Ctrl+l exec --no-startup-id betterlockscreen -l dim
 bindsym $mod+Shift+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
 bindsym Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
 
-# start dmenu (a program launcher)
+# start rofi (a program launcher)
 bindsym $mod+p exec --no-startup-id $HOME/.config/rofi/small.sh
-# A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-
-# start eww
-bindsym $mod+Shift+p exec --no-startup-id $HOME/.config/eww/dashboard/launch_dashboard
 
 # change focus
 bindsym $mod+j focus left
