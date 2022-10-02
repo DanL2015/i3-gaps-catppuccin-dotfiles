@@ -37,3 +37,19 @@ yay -Syu picom-pijulius-git betterlockscreen
 # Disclaimer: 
 These are my own personal dotfiles, most of them are taken from [Catppuccin](https://github.com/catppuccin/catppuccin).
 Use these at your own risk, they are messy and not very good :/
+
+## Rofi:
+There are three scripts
++ large.sh - large application launcher
++ small.sh - small application launcher
++ rofi_power_menu.sh - power menu launcher
+
+## Polybar:
+Make sure to change the window.sh script (find the value for your desktop)
+Run the following, switch to a new desktop, and replace the `Desktop Value` with your own values
+```
+sleep 3 && xdotool getwindowfocus
+```
+Scripts
++ window.sh - gets focused window name
++ polybar.sh - starts polybar
