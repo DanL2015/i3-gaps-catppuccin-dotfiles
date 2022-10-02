@@ -1,0 +1,86 @@
+@import "catppuccin_colors.rasi"
+//@import "nord_colors.rasi"
+
+* {
+    background-color: @background;
+    border-color:  @outline;
+    text-color: @foreground;
+    font: "Iosevka Nerd Font Mono 12";
+    show-icons: true;
+    border-radius: 10px;
+}
+
+window {
+    border: 3px;
+    padding: 4px;
+    height: 200px;
+	width: 500px;
+	background-color: @background;
+}
+
+mainbox {
+    padding: 5px;
+}
+
+inputbar {
+    border: 1px;
+    children: [prompt,entry];
+	border-color: @outline;
+}
+
+prompt {
+	background-color: @outline;
+  padding: 5px 5px 0px;
+  text-color: @search-text;
+  border-radius: 0px;
+	content: "";
+}
+
+entry {
+    padding: 5px;
+	placeholder: "Search...";
+	placeholder-color: @search-text;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+      columns: 1;
+
+}
+
+element {
+    padding: 2px;
+}
+
+element-icon {
+	padding: 2px;
+	size: 16;
+}
+
+element selected {
+    background-color: @selected-background;
+    text-color: @selected-foreground;
+	border-radius: 10px;
+}
+
+element-icon selected {
+	background-color: @selected-background;
+}
+
+selected {
+	text-color: @selected-foreground;
+	background-color: @selected-background;
+}
+
+element urgent {
+    background-color: @urgent-background;
+    text-color: @background;
+	border-radius: 10px;
+}
+
+element active {
+    background-color: @active-background;
+    text-color: @background;
+	border-radius: 10px;
+}

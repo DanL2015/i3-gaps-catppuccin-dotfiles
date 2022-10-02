@@ -1,0 +1,22 @@
+#!/bin/bash
+# Script to send current brightness notification to dunstify 
+# need depencies dunstify, xbacklight
+msgID="3456"
+brightness="$(xbacklight -get)"
+bar=""
+lim=$((brightness/10-1))
+while [ $lim -gt 0 ]
+do
+  bar+=""
+  ((lim--))
+done
+bar+=""
+
+# check brightness
+if [[ "$brightness" -gt "65" ]]; then
+	dunstify  "  $brightness $bar" -t 800 -r $msgID
+elif [[ "$brightness" == "0" ]]; then
+	dunstify  "  0" -t 800 -r $msgID
+else
+	dunstify  "  $brightness $bar" -t 800 -r $msgID
+fi
