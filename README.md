@@ -12,6 +12,11 @@
 [Startpage Original](https://github.com/kencx/startpage) <br>
 [Polybar Spotify Scripts](https://github.com/PrayagS/polybar-spotify) <br>
 
+
+# Disclaimer: 
+These are my own personal dotfiles, and it's my first time putting them on github (hopefully I'm doing this right). <br>
+Use these at your own risk, they are pretty messy. Feel free to change them for your own configurations.
+
 ## Dependencies
 + i3-gaps
 + polybar
@@ -39,10 +44,6 @@ yay -Syu picom-pijulius-git betterlockscreen
 + Copy firefox userChrome.css to $HOME/.mozilla/firefox/xxx.default-release/chrome/ (xxx is random string)
 + Copy other files to $HOME/.config/
 + Change i3 config autostart applications
-
-# Disclaimer: 
-These are my own personal dotfiles, and it's my first time putting them on github (hopefully I'm doing this right). <br>
-Use these at your own risk, they are pretty messy. Feel free to change them for your own configurations.
 
 # Scripts:
 Remember to chmod the scripts so they can be run.
