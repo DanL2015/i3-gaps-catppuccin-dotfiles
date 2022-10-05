@@ -9,6 +9,7 @@
 [Icons Theme](https://github.com/catppuccin/papirus-folders) <br>
 [Kvantum Theme](https://github.com/catppuccin/Kvantum) <br>
 [Firefox Waterfall Theme](https://github.com/crambaud/waterfall) <br>
+[Startpage Original](https://github.com/kencx/startpage) <br>
 
 ## Dependencies
 + i3-gaps
