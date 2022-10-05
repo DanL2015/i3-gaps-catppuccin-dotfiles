@@ -41,8 +41,8 @@ yay -Syu picom-pijulius-git betterlockscreen
 + Change i3 config autostart applications
 
 # Disclaimer: 
-These are my own personal dotfiles, most of them are taken from [Catppuccin](https://github.com/catppuccin/catppuccin).
-Use these at your own risk, they are messy and not very good :/
+These are my own personal dotfiles, and it's my first time putting them on github (hopefully I'm doing this right). <br>
+Use these at your own risk, they are pretty messy. Feel free to change them for your own configurations.
 
 # Scripts:
 Remember to chmod the scripts so they can be run.
