@@ -10,6 +10,7 @@
 [Kvantum Theme](https://github.com/catppuccin/Kvantum) <br>
 [Firefox Waterfall Theme](https://github.com/crambaud/waterfall) <br>
 [Startpage Original](https://github.com/kencx/startpage) <br>
+[Polybar Spotify Scripts](https://github.com/PrayagS/polybar-spotify) <br>
 
 ## Dependencies
 + i3-gaps
@@ -50,7 +51,7 @@ sudo chmod +x /path/to/script
 ```
 
 ## Rofi:
-Three scripts
+scripts
 + large.sh - large application launcher
 + small.sh - small application launcher
 + rofi_power_menu.sh - power menu launcher
@@ -61,11 +62,12 @@ Run the following, switch to a new desktop, and replace the `Desktop Value` with
 ```
 sleep 3 && xdotool getwindowfocus
 ```
-Two Scripts
+Scripts
 + window.sh - gets focused window name
 + polybar.sh - starts polybar
++ spotify scripts - [credit](https://github.com/PrayagS/polybar-spotify)
 
 ## i3:
-Two Scripts
+Scripts
 + volnotification - shows volume level in dunst (requires pamixer)
 + brightnotification - shows brightness level in dunst (requires xbacklight)
