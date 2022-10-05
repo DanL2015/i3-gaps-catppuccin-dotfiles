@@ -44,6 +44,7 @@ yay -Syu picom-pijulius-git betterlockscreen
 + Copy firefox userChrome.css to $HOME/.mozilla/firefox/xxx.default-release/chrome/ (xxx is random string)
 + Copy other files to $HOME/.config/
 + Change i3 config autostart applications
++ Change your startpage (visit [here](https://danl2015.github.io/startpage/) for a demo)
 
 # Scripts:
 Remember to chmod the scripts so they can be run.
