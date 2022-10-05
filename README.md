@@ -24,6 +24,7 @@
 + picom-pijulius-git
 + xss-lock, betterlockscreen
 + hsetroot
++ iosevka nerd font
 
 ## Arch Linux Package Installation
 ```
